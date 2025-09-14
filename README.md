@@ -3,7 +3,7 @@
 This repository contains **raw Markdown templates** for cybersecurity reporting.  
 The goal is to keep reports **consistent, professional, and easy to reuse** across different domains: Red Team, Blue Team, and Exam reports.  
 
-No design, no heavy formatting — just the **raw content structure** inspired by professional pentest reports (e.g., iteratec style).  
+No design, no heavy formatting — just the **raw content structure** inspired by professional pentest reports (e.g., iteratec style, etc).  
 
 ---
 
