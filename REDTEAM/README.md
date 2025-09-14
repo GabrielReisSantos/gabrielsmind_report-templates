@@ -1,0 +1,29 @@
+# GabrielsMind Report Template (Raw Content)
+
+Pure **Markdown templates** for creating consistent, iteratec-inspired pentest/security reports —
+with no design and no code. Copy, fill in placeholders, and commit.
+
+## What's inside
+- `templates/REPORT_TEMPLATE.md` — full report skeleton (iteratec-style)
+- `templates/FINDING_TEMPLATE.md` — per-finding block to duplicate
+- `templates/EXEC_SUMMARY_TEMPLATE.md` — short executive summary helper
+- `examples/sample_filled_report.md` — an example showing how to use the templates
+
+## Quick start
+1. Duplicate `templates/REPORT_TEMPLATE.md` into your engagement repo (e.g., `/reports/GM-2025-01.md`).
+2. Fill in all placeholders between angle brackets `<...>`.
+3. For each issue, paste a copy of `templates/FINDING_TEMPLATE.md` into **Section 5: Detailed Findings**.
+4. Keep `Document History` up-to-date and tag releases.
+5. Optional: Convert the final Markdown to PDF/DOCX in your own toolchain.
+
+## Recommended repo layout
+```
+/reports
+  GM-2025-01.md                 # This engagement's main report (from REPORT_TEMPLATE.md)
+  evidence/                     # Screenshots, logs, PoCs
+  exports/                      # Generated PDF/DOCX (if you convert)
+  findings/                     # Optional: per-finding files if you prefer modular docs
+```
+
+## License
+MIT — see `LICENSE`.

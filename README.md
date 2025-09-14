@@ -1,0 +1,1 @@
+# GabrielsMind Report Templates
